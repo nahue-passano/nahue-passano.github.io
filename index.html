@@ -1,260 +1,614 @@
-<!DOCTYPE HTML>
-<!--
-	Prologue by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Nahuel Passano Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
 
-		<!-- Header -->
-			<div id="header">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-				<div class="top">
+  <title>Nahuel Passano Portfolio</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-					<!-- Logo -->
-						<div id="logo">
-							<span class="image avatar48"><img src="images/icon.png" alt="" /></span>
-							<h1 id="title">Nahuel Passano</h1>
-							<p>ML engineer and <br /> Acoustic Engineer </p>
-						</div>
+  <!-- Favicons -->
+  <link href="assets/img/icon.png" rel="icon">
+  <link href="assets/img/icon.png" rel="apple-touch-icon">
 
-					<!-- Nav -->
-						<nav id="nav">
-							<ul>
-								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
-								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
-								<li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
-								<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
-							</ul>
-						</nav>
 
-				</div>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-				<div class="bottom">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" >
 
-					<!-- Social Icons -->
-						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/nahuelpassano/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="https://github.com/nahue-passano" class="icon brands fa-github"><span class="label">Github</span></a></li>
-							<li><a href="pdf/resume.pdf" class="fas fa-file-user"><span class="label">CV</span></a></li>
-							<li><a href="mailto:n.passano@hotmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-						</ul>
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 
-				</div>
+  <!-- =======================================================
+  * Template Name: MyResume
+  * Updated: Jan 29 2024 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
 
-			</div>
+<body>
 
-		<!-- Main -->
-			<div id="main">
+  <!-- ======= Mobile nav toggle button ======= -->
+  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
+  <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex flex-column justify-content-center">
 
-				<!-- Intro -->
-					<section id="top" class="one dark cover">
-						<div class="container">
+    <nav id="navbar" class="navbar nav-menu">
+      <ul>
+        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+        <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+      </ul>
+    </nav><!-- .nav-menu -->
 
-							<header>
-								<h2 class="alt">Hi! I'm <strong>Nahuel Passano</strong>, a <br />
-									  <strong>Machine Learning Engineer </strong> <br /> 
-									  and <strong>Acoustic Engineer</strong>   <br /> 
-									 from Buenos Aires, Argentina.</h2>
-								<p> <br /> Artificial Intelligence development with Machine Learning  <br />
-									and Deep Learning applied to Computer Vision and Audio.  <br />Engineering programming
-								in Python and MatLab for 4 years.<br /><br />  Check out my projects below!</p>
-							</header>
+  </header><!-- End Header -->
 
-							<footer>
-								<a href="#portfolio" class="button scrolly">See more</a>
-							</footer>
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center">
+    <div class="container" data-aos="zoom-in" data-aos-delay="100">
+      <h1>Nahuel Passano</h1>
+      <p>I'm <span class="typed" data-typed-items="Machine Learning Engineer, Acoustical Engineer, DSP Professor"></span></p>
+      <div class="social-links">
+        <a href="https://github.com/nahue-passano" class="github"><i class="bx bxl-github"></i></a>
+        <a href="https://www.linkedin.com/in/nahuelpassano/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <a href="pdf/Nahuel Passano - CV (2024).pdf" class="cv-icon"><i class="bi bi-file-earmark-person"></i></a>
+        
+      </div>
+    </div>
+  </section><!-- End Hero -->
 
-						</div>
-					</section>
+  <main id="main">
 
-				<!-- Portfolio -->
-					<section id="portfolio" class="two">
-						<div class="container">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
 
-							<header>
-								<h2>Portfolio</h2>
-							</header>
+        <div class="section-title">
+          <h2>About</h2>
+          <p> I define myself as a high-performing, intrinsically motivated individual with a strong passion for technology. I thrive in multidisciplinary <br>and multicultural teams, and I am motivated by projects with social impact, where technical challenges are combined with user needs.</p>
+        </div>
 
-							<p> <strong> These are some of the projects i have developed in my engineering career and courses. 
-								They are related to Audio Electronics, Electroacoustic simulations and measurements, 
-								Digital Signal Processing and AI, among others. </strong> </p>
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content">
+            <h3>Machine Learning Engineer &amp; Acoustical Engineer.</h3>
+            <p class="fst-italic">
 
-							<div class="row">
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="https://github.com/nahue-passano/keyword_spotting_api" class="image fit"><img src="images/kss.png" alt="" /></a>
-										<header>
-											<h3>Keyword Spotting API</h3>
-										</header>
-									</article>
-								</article>
-								<article class="item">
-									<a href="https://drive.google.com/file/d/1GtvfxPWwbPhq-9X6OwTzG6L6VU_uIHtx/view?usp=sharing" class="image fit"><img src="images/gabinet.png" alt="" /></a>
-									<header>
-										<h3>Studio Monitor Design</h3>
-									</header>
-								</article>
-								<article class="item">
-									<a href="https://github.com/nahue-passano/transmission_loss_simulation" class="image fit"><img src="images/trans.png" alt="" /></a>
-									<header>
-										<h3>Transmission Loss Simulation software</h3>
-									</header>
-								</article>
-								<article class="item">
-									<a href="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/8334319c-fa90-455f-85cb-491cffc36b24/TP_1_Acoustic_Sound_Power_-_Castelli_Mascaro_Passano_-_2022_1C-_v1.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220408%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220408T020025Z&X-Amz-Expires=86400&X-Amz-Signature=cf1c8243a75f968ee6c0655f3b78f87653cee0cc5478167e128c7cde6394d7c7&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22TP%25201%2520Acoustic%2520Sound%2520Power%2520-%2520Castelli%252C%2520Mascaro%252C%2520Passano%2520-%25202022%25201C-%2520v1.pdf%22&x-id=GetObject" class="image fit"><img src="images/ASPIRADORA.jpg" alt="" /></a>
-									<header>
-										<h3>Acoustic Sound Power Measurement </h3>
-									</header>
-								</article>
-									
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="https://github.com/nahue-passano/voice_assistant" class="image fit"><img src="images/Voice Assistant.jpg" alt="" /></a>
-										<header>
-											<h3>Voice Assistant</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="https://github.com/nahue-passano/music_genre_classification" class="image fit"><img src="images/music_gen.png" alt="" /></a>
-										<header>
-											<h3>Music Genre Classification</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="https://github.com/nahue-passano/impulse_response_extraction" class="image fit"><img src="images/IR.png" alt="" /></a>
-										<header>
-											<h3>IR Measurement and Processing software</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="https://drive.google.com/file/d/1q_nqOYUfH00ScugrwPb2YabDjYMHlbSP/view?usp=sharing" class="image fit"><img src="images/horn.png" alt="" /></a>
-										<header>
-											<h3>Compression Driver Measurement</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="https://drive.google.com/file/d/1q_nqOYUfH00ScugrwPb2YabDjYMHlbSP/view?usp=sharing" class="image fit"><img src="images/filter.png" alt="" /></a>
-										<header>
-											<h3>Active Filter Design</h3>
-										</header>
-									</article>
-								
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="https://github.com/nahue-passano/loudspeaker_simulation_ipynb" class="image fit"><img src="images/loud_sim.png" alt="" /></a>
-										<header>
-											<h3>Loudspeaker Simulation</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="https://github.com/nahue-passano/musical_signal_identifier" class="image fit"><img src="images/SIGNAL_IDEN.png" alt="" /></a>
-										<header>
-											<h3>Musical Signal Identifier software</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="https://drive.google.com/file/d/1wVj8kJKwL1kOU22arHQPuD0A8MsY5rEx/view?usp=sharing" class="image fit"><img src="images/circ.png" alt="" /></a>
-										<header>
-											<h3>Class A Electric Guitar Preamplifier</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="https://drive.google.com/file/d/1-dMVy2BNDsNv80_xSYigK2CNlP_Khquh/view?usp=sharing" class="image fit"><img src="images/AUDITORIO.png" alt="" /></a>
-										<header>
-											<h3>Acoustic Design of an Arena Hall</h3>
-										</header>
-									</article>
-									</article>
-									<article class="item">
-										<a href="https://drive.google.com/file/d/1w0SchNf6FFVZLDCVL29ElmmvRJNqizfB/view?usp=sharing" class="image fit"><img src="images/chadli.png" alt="" /></a>
-										<header>
-											<h3>Chladni Patterns Analysis</h3>
-										</header>
-									</article>
-								
-								</div>
-							</div>
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.nahue-passano.github.io</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Buenos Aires, Argentina</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Engineering</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>nahue.passano@gmail.com</span></li>
+                </ul>
+              </div>
+            </div>
+            <p>
+              <br>
+              🧠 Currently focused on applying artificial intelligence in the healthcare sector, working on the analysis and development of predictive models for patients with Amyotrophic Lateral Sclerosis (ALS). 
+              <br>
+              <br> 
+              👁️ I also have experience in end-to-end Computer Vision projects and specialize in AI applied to audio. 
+              <br>
+              <br> 
+              🗣️ In my Acoustic Engineering thesis project, I am developing a voice cloning system for the Rioplatense Spanish dialect, capable of synthesizing high-quality speech in real time with detailed control over pitch and phoneme duration. 
+              <br>
+              <br> 
+              📚 Additionally, I have teaching experience in engineering and data science subjects, contributing to the development of skills in these areas. 
+              <br> 
+              <br> 
+              <br> 
+            </p>
+          </div>
+          
+          <div class="col-lg-12 d-flex justify-content-center">
+            <a href="pdf/Nahuel Passano - CV (2024).pdf" class="btn btn-primary" download="Nahuel_Passano_CV_2024">Download CV</a>
+          </div>
 
-						</div>
-					</section>
-				
-				<!-- About Me -->
-					<section id="about" class="three">
-						<div class="container">
+        </div>
 
-							<header>
-								<h2>About Me</h2>
-							</header>
+      </div>
+    </section><!-- End About Section -->
 
-							
-							<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/RILm4Br3uII" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+    <!-- ======= Facts Section ======= -->
+    <!-- <section id="facts" class="facts">
+      <div class="container" data-aos="fade-up">
 
-							<p> <br /> <strong> I'm Machine Learning Engineer and Acoustic Engineer student at <br /> Universidad Nacional de Tres de Febrero (UNTREF) since 2016. 
-								<br /> <br /> Experienced in Python development with libraries such as: <br /> MatPlotLib, Numpy, SciPy, Pandas, ScikitLearn,<br /> TensorFlow, Keras, Seaborn, PyQt5, Librosa, FastAPI.
-								<br /> <br /> I also use tools such as Docker, Git, GitHub, Google Colab,<br /> LaTeX (Overleaf), AutoCad, SketchUp and VRay. 
-								<br /> <br /> I love to participate in cooperative projects to interact both <br /> professionally and personally, exchanging ideas and knowledge.
-								<br /> <br /> My interests include Digital Signal Processing, Artificial Intelligence, <br />Machine Learning and Deep Learning applied to Audio and Computer Vision, <br />and Natural Language Processing (NLP), among others.
-								<br /> <br /> For more information check out <br /> my <a href="pdf/resume.pdf"> resume</a> or my <a href="https://www.linkedin.com/in/nahuelpassano/"> LinkedIn profile</a>.</strong> </p>
+        <div class="section-title">
+          <h2>Facts</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
 
-						</div>
-					</section>
+        <div class="row">
 
-				<!-- Contact -->
-					<section id="contact" class="four">
-						<div class="container">
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-emoji-smile"></i>
+              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Happy Clients</p>
+            </div>
+          </div>
 
-							<header>
-								<h2>Contact me!</h2>
-							</header>
+          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+            <div class="count-box">
+              <i class="bi bi-journal-richtext"></i>
+              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Projects</p>
+            </div>
+          </div>
 
-							<p></p>
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="bi bi-headset"></i>
+              <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Hours Of Support</p>
+            </div>
+          </div>
 
-							<form method="post" action="#">
-								<div class="row">
-									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
-									<div class="col-12">
-										<textarea name="message" placeholder="Message"></textarea>
-									</div>
-									<div class="col-12">
-										<input type="submit" value="Send Message" />
-									</div>
-								</div>
-							</form>
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="bi bi-award"></i>
+              <span data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Awards</p>
+            </div>
+          </div>
 
-						</div>
-					</section>
+        </div>
 
-			</div>
+      </div>
+    </section>End Facts Section -->
 
-		<!-- Footer -->
-			<div id="footer">
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container" data-aos="fade-up">
 
-				<!-- Copyright -->
-					<ul class="copyright">
-						<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
+        <div class="section-title">
+          <h2>Skills</h2>
+          <p>
+            Throughout my career, I have had the privilege of being a member of high-performance technical teams focused on various topics<br> within the realm of artificial intelligence. During this projects, I had the opportunity to develop and refine these skills, among others.</p>
+        </div>
 
-			</div>
+        <div class="row skills-content">
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+          <div class="col-lg-6">
 
-	</body>
+            <div class="progress">
+              <span class="skill">Machine Learning and Deep Learning <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Audio DSP <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Computer Vision <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill">Python <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">AWS <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Docker <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Resume</h2>
+          <p>I've had the opportunity to collaborate with captivating interdisciplinary teams, enriching my experience profoundly. <br>Concurrently, I've engaged in compelling and groundbreaking projects that I take great pride in showcasing</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Acoustical Engineering</h4>
+              <h5>2016 - 2024</h5>
+              <p><em>National University of Tres de Febrero, Buenos Aires, Argentina</em></p>
+              <p>Engineering’s degree specialized in acoustic measurements, NVH and DSP.</p>
+            </div>
+
+            <h3 class="resume-title">Projects</h3>
+            <div class="resume-item">
+              <h4><a href="https://github.com/nahue-passano/AIRA" target="_blank">AIRA: Ambisonics Impulse Response Analyzer</a></h4>
+              <p>Innovative software for visualizing impulse responses from Ambisonics microphones, featuring an interactive interface that allows for detailed examination of sound reflections using ’hedgehog-type’ graphs</p>
+            </div>
+
+            <div class="resume-item">
+              <h4><a href="https://www.youtube.com/watch?si=6w_MM23dObzyKpX6&v=DxbfcCFLUZw&feature=youtu.be" target="_blank">Mi identidad vocal</a></h4>
+              <p>Development of voice cloning software for the former national deputy Jorge Rivas. Through his sessions in the Chamber of Deputies, his voice was successfully reconstructed, restoring his vocal identity.</p>
+            </div>
+            
+            <h3 class="resume-title">Certificates</h3>
+            <div class="resume-item">
+              <h4>Cloud Computing (AWS)</h4>
+              <p><em>CoderHouse</em></p>
+            </div>
+            <div class="resume-item">
+              <h4>Convolutional Neural Networks</h4>
+              <p><em>DeepLearning.ai</em></p>
+            </div>
+            <div class="resume-item">
+              <h4>Data analysis with Python</h4>
+              <p><em>freeCodeCamp</em></p>
+            </div>
+            <div class="resume-item">
+              <h4>Docker for the absolute begginer</h4>
+              <p><em>KodeKloud</em></p>
+            </div>
+            <div class="resume-item">
+              <h4>MLOps concepts</h4>
+              <p><em>DataCamp</em></p>
+            </div>
+            <div class="resume-item">
+              <h4>Sequence Models</h4>
+              <p><em>DeepLearning.ai</em></p>
+            </div>
+
+            
+          </div>
+          <div class="col-lg-6">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Ssr Machine Learning Engineer</h4>
+              <h5>9/2023 - Present</h5>
+              <p><em>EverythingALS </em></p>
+              <ul>
+                <li>Presentation of scientific advancements to high-level executives, emphasizing skills in communication and specialized information management.</li>
+                <li>Development of signal processing pipelines for the extraction of digital biomarkers from speech and measurements of pressure sensors, accelerometers and gyroscopes.</li>
+                <li>Training of supervized models to predict subjective metrics of ALS patients.</li>
+                <li>Design of a proof of concept on voice cloning for ALS patients using Eleven Labs, TortoiseTTS and RVC.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Ssr Machine Learning Engineer</h4>
+              <h5>4/2023 - 10/2023</h5>
+              <p><em>MecanTronic</em></p>
+              <ul>
+                <li>Technical leadership in an Audio Machine Learning project (Voice Cloning for Argentinian speakers).</li>
+                <li>Design technical exam for the selection process, perform technical interviews</li>
+                <li>Machine Learning projects lifecycle managment with MLFlow.</li>
+                <li>Implementation of CI pipelines with GitHub Actions for automated testing.</li>
+                <li>Cloud architect with AWS for Machine Learning projects.</li>
+                <li>Containerization of Machine Learning applications using Docker.</li>
+              </ul>
+            </div>
+
+            <div class="resume-item">
+              <h4>Jr Machine Learning Engineer</h4>
+              <h5>2/2022 - 4/2023</h5>
+              <p><em>MecanTronic</em></p>
+              <ul>
+                <li> EDA for Object Detection and Instance Segmentation datasets.</li>
+                <li> Reserch and application of Computer Vision models for object detection in drone imagery.</li>
+                <li> Adaptation of libraries such as Detectron2 and Anomalib for instance segmentation and anomaly detection tasks in drone imagery.</li>
+                <li> Full pipeline development of preprocessing, inference and postprocessing in Computer Vision projects.</li>
+                <li> Training AI models on GPU cloud instances (AWS EC2, Paperspace).</li>
+              </ul>
+            </div>
+
+            
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <p>During my academic and professional career, I have developed innovative and highly motivating projects. The most outstanding ones are listed below</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-ai">Artificial Ingelligence</li>
+              <li data-filter=".filter-acoustics">Acoustics</li>
+              <li data-filter=".filter-dsp">Digital Signal Processing</li>
+              
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+          
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ai">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/ml_1_tts.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Real-time TTS for Argentinian speakers</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/ml_1_tts.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-dsp">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/dsp_1_aira.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>AIRA: Ambisonics Impulse Response Analyzer</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/dsp_1_aira.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ai">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/ml_2_spotify.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Spotify Clustering Analysis</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/ml_2_spotify.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-dsp">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/dsp_2_impra.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>IMPRA: Impulse Response Analyzer</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/dsp_2_impra.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ai">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/ml_3_kss.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Keyword Spotting Service</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/ml_3_kss.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-acoustics">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/ac_2_cabinet.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Studio Monitor Design</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/ac_2_cabinet.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-acoustics">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/ac_1_sim.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Loudspeaker response simulation</h4>
+                <!-- <p>Simulation of the frequency response, impedance, and speed of a loudspeaker using Thiele-Small parameters and Lampton transmission matrices.</p> -->
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/ac_1_sim.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-acoustics">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/ac_3_acoustical_parameters.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Characterization of Room Acoustic Parameters</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/ac_3_acoustical_parameters.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-dsp">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/dsp_3_tl.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Transmission loss simulator</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/dsp_3_tl.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+        </div>
+
+        <div class="row mt-1">
+
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>Buenos Aires, Argentina</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>nahue.passano@gmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-linkedin"></i>
+                <h4>LinkedIn:</h4>
+                <p><a href="https://www.linkedin.com/in/nahuelpassano">Nahuel Passano</a></p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0">
+
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>Nahuel Passano</h3>
+      <div class="social-links">
+        <a href="https://github.com/nahue-passano" class="github"><i class="bx bxl-github"></i></a>
+        <a href="https://www.linkedin.com/in/nahuelpassano/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <a href="pdf/Nahuel Passano - CV (2024).pdf" class="cv-icon"><i class="bi bi-file-earmark-person"></i></a>
+      </div>
+      <!-- <div class="copyright">
+        &copy; Copyright <strong><span>MyResume</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        All the links in the footer should remain intact.
+        You can delete the links only if you purchased the pro version.
+        Licensing information: [license-url]
+        Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div> -->
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
