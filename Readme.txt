@@ -1,5 +1,8 @@
 Thanks for downloading this template!
 
+Aguante san lorenzo
+mufa para palmeiras
+
 Template Name: MyResume
 Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
 Author: BootstrapMade.com
